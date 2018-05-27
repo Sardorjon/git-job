@@ -1,0 +1,17 @@
+@define-mixin 4small {
+    @media (min-width:530px) {
+        @mixin-content;
+    }
+}
+@define-mixin 4medium {
+    @media (min-width:800px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin 4large {
+    @media (min-width:1200px) {
+        @mixin-content;
+    }
+}
+
