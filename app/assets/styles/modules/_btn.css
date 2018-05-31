@@ -7,8 +7,10 @@
     &__orange {
         background-color: $mainOrange
     }
-    &__large {
-        font-size: 1.2rem;
+    &__large {        
         padding: 0.9rem 1.3rem;
+        @mixin 4small {
+            font-size: 1.2rem;
+        }
     }
 }

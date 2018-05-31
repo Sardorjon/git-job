@@ -1,0 +1,21 @@
+.wrapper {
+    overflow: hidden;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 67rem;
+    margin-left: auto;
+    margin-right: auto;
+    &__medium {
+        max-width: 976px;
+    }
+    .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    &__b-margin {
+        margin-bottom: 1rem;
+        @mixin 4medium {
+            margin-bottom: 3.2rem;
+        }
+    }
+}
