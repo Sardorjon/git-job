@@ -676,7 +676,7 @@ a {
 
 .headline__no-t-margin {
             margin-top: 0;
-            margin-bottom: 0
+            margin-bottom: 0.4rem
     }
     }
 
@@ -690,8 +690,16 @@ a {
         margin-right: -4rem;
     }
 
+.row__gutters-large {
+        margin-right: -6rem;
+    }
+
 .row__gutters > div {
         padding-right: 4rem;
+    }
+
+.row__gutters-large > div {
+        padding-right: 6rem;
     }
 
 @media (min-width:800px) {
@@ -701,6 +709,10 @@ a {
         }
         .row__medium-4--larger {
             width: 37%;
+        }
+        .row__medium-6 {
+            float: left;
+            width: 50%;
         }
         .row__medium-8 {
             float: left;
@@ -712,6 +724,8 @@ a {
     }
 
 .generic-content p {
+        font-weight:300;
+        margin:0 0 1rem 0;
         line-height:1.45;
     }
 
@@ -725,6 +739,86 @@ a {
 .generic-content p a {
         font-weight: 600;   
         font-family: 'Merriweather Sans', sans-serif;
+        text-decoration: none;
+    }
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: -0.4rem;
+}
+
+@media (min-width:800px) {
+
+.section-title {
+        font-size: 3.7rem
+}
+    }
+
+.section-title__icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: .9rem;
+    }
+
+@media (min-width:530px) {
+
+.section-title__icon {
+            margin-right: 0.5rem;
+            margin-left:0;
+            display: inline-block;
+            padding-bottom:0
+    }
+    }
+
+.feature-item {
+    position: relative;
+   
+    padding-bottom: 0.5rem;
+}
+
+@media (min-width:530px) {
+
+.feature-item {
+        padding-left: 6rem
+}
+    }
+
+@media (min-width:800px) {
+
+.feature-item {
+        padding-bottom: 2.5rem
+}
+    }
+
+.feature-item__icon {
+        display: block;
+        margin: 0 auto;
+    }
+
+@media (min-width:530px) {
+
+.feature-item__icon {
+            position: absolute;
+            left:0
+    }
+    }
+
+.feature-item__title {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 0.4rem;
+        text-align: center;
+    }
+
+@media (min-width:530px) {
+
+.feature-item__title {
+            font-size: 1.7rem;
+            text-align: left
+    }
     }
 
 
