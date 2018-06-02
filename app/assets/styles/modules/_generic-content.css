@@ -1,0 +1,12 @@
+.generic-content {
+    p {
+        line-height:1.45;
+        @mixin 4medium {
+        font-size: 1.06rem;
+        }
+    }
+    p a {
+        font-weight: 600;   
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+}

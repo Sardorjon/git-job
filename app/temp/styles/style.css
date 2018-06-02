@@ -465,6 +465,10 @@ img{
             box-sizing: border-box;
 }
 
+a {
+    color: #d59541;
+}
+
 .wrapper {
     overflow: hidden;
     padding-left: 1rem;
@@ -671,7 +675,8 @@ img{
 @media (min-width:800px) {
 
 .headline__no-t-margin {
-            margin-top: 0
+            margin-top: 0;
+            margin-bottom: 0
     }
     }
 
@@ -705,4 +710,21 @@ img{
             width: 63%;
         }
     }
+
+.generic-content p {
+        line-height:1.45;
+    }
+
+@media (min-width:800px) {
+
+.generic-content p {
+        font-size: 1.06rem
+    }
+    }
+
+.generic-content p a {
+        font-weight: 600;   
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+
 
